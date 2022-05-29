@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Buy</class>
+ <widget class="QDialog" name="Buy">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1246</width>
+    <height>633</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="view">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>170</y>
+     <width>321</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+color: rgb(0, 0, 0);
+border-radius:13.5px;
+height: 30px;</string>
+   </property>
+   <property name="text">
+    <string>View All Products</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>170</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid #e7e7e7;
+    border-radius: 13px;
+    background-color: #232323;
+    color: white;</string>
+   </property>
+   <property name="currentText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>240</y>
+     <width>381</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+color: rgb(0, 0, 0);
+border-radius:13.5px;
+height: 30px;</string>
+   </property>
+   <property name="text">
+    <string>Click here to view chosen product deatils</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="productuan">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>310</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Lobster', cursive;
+color: rgb(255, 255, 255);
+font-weight: 900;</string>
+   </property>
+   <property name="text">
+    <string>Product Quantity:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="quantity">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>310</y>
+     <width>113</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid #e7e7e7;
+    border-radius: 13px;
+    background-color: #232323;
+    color: white;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="dragEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="productuan_2">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>340</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Lobster', cursive;
+color: rgb(255, 255, 255);
+font-weight: 900;</string>
+   </property>
+   <property name="text">
+    <string>Product Category:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="productuan_3">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>370</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Lobster', cursive;
+color: rgb(255, 255, 255);
+font-weight: 900;</string>
+   </property>
+   <property name="text">
+    <string>Product Price:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="category">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>340</y>
+     <width>113</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid #e7e7e7;
+    border-radius: 13px;
+    background-color: #232323;
+    color: white;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="price">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>370</y>
+     <width>113</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid #e7e7e7;
+    border-radius: 13px;
+    background-color: #232323;
+    color: white;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>60</y>
+     <width>601</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 28pt;
+font: 28pt &quot;Snap ITC&quot;;
+color: rgb(255, 255, 127);
+font-weight: 900;
+text-align: center;</string>
+   </property>
+   <property name="text">
+    <string>Viewing All Products</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>170</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Lobster', cursive;
+color: rgb(255, 255, 127);
+font-weight: 900;</string>
+   </property>
+   <property name="text">
+    <string>Products</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>280</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Lobster', cursive;
+color: rgb(255, 255, 255);
+font-weight: 900;</string>
+   </property>
+   <property name="text">
+    <string>Product Name:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>280</y>
+     <width>113</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid #e7e7e7;
+    border-radius: 13px;
+    background-color: #232323;
+    color: white;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="dragEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>510</y>
+     <width>191</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+color: rgb(0, 0, 0);
+border-radius:13.5px;
+height: 30px;</string>
+   </property>
+   <property name="text">
+    <string>Go To Buy Screen</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>510</y>
+     <width>191</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+color: rgb(0, 0, 0);
+border-radius:13.5px;
+height: 30px;</string>
+   </property>
+   <property name="text">
+    <string>Go Back To Main Window</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="productuan_4">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>400</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Lobster', cursive;
+color: rgb(255, 255, 255);
+font-weight: 900;</string>
+   </property>
+   <property name="text">
+    <string>Product Rate:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Rate">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>400</y>
+     <width>113</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid #e7e7e7;
+    border-radius: 13px;
+    background-color: #232323;
+    color: white;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>pushButton</tabstop>
+  <tabstop>comboBox</tabstop>
+  <tabstop>quantity</tabstop>
+  <tabstop>category</tabstop>
+  <tabstop>price</tabstop>
+  <tabstop>view</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

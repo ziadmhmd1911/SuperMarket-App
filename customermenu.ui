@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CustomerMenu</class>
+ <widget class="QDialog" name="CustomerMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1281</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="search">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>260</y>
+     <width>511</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(77, 119, 255);
+color: rgb(255, 255, 255);
+border-radius:13.5px;
+height: 30px;</string>
+   </property>
+   <property name="text">
+    <string>Search And Add Product To Cart</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="view">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>360</y>
+     <width>511</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(77, 119, 255);
+color: rgb(255, 255, 255);
+border-radius:13.5px;
+height: 30px;</string>
+   </property>
+   <property name="text">
+    <string>View My Cart And Confirm Buying</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buy">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>310</y>
+     <width>511</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(77, 119, 255);
+color: rgb(255, 255, 255);
+border-radius:13.5px;
+height: 30px;</string>
+   </property>
+   <property name="text">
+    <string>View All Products</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>160</y>
+     <width>931</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Snap ITC</family>
+     <pointsize>26</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 28pt;
+font: 26pt &quot;Snap ITC&quot;;
+color: rgb(77, 119, 255);
+font-weight: 900;
+text-align: center;</string>
+   </property>
+   <property name="text">
+    <string>WELCOME TO CUSTOMER MENU</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Rating">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>410</y>
+     <width>511</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(77, 119, 255);
+color: rgb(255, 255, 255);
+border-radius:13.5px;
+height: 30px;</string>
+   </property>
+   <property name="text">
+    <string>Rate Products</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RatingSystem</class>
+ <widget class="QDialog" name="RatingSystem">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1262</width>
+    <height>616</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(35, 35, 35);</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1261</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Tab 1</string>
+    </attribute>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>10</y>
+       <width>911</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 28pt;
+font: 28pt &quot;Snap ITC&quot;;
+color: rgb(255, 255, 255);
+font-weight: 900;
+text-align: center;</string>
+     </property>
+     <property name="text">
+      <string>Customer Name Here</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>290</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: 'Lobster', cursive;
+color: rgb(255, 255, 255);
+font-weight: 900;</string>
+     </property>
+     <property name="text">
+      <string>Enter Rate</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="productrate">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>290</y>
+       <width>113</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid #e7e7e7;
+    border-radius: 13px;
+    background-color: #232323;
+    color: white;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="subproductrate">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>330</y>
+       <width>93</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(77, 119, 255);
+color: rgb(255, 255, 255);
+border-radius:13.5px;
+height: 30px;</string>
+     </property>
+     <property name="text">
+      <string>Submit rate</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="productnames">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>150</y>
+       <width>591</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>70</y>
+       <width>451</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 28pt;
+font: 28pt &quot;Snap ITC&quot;;
+color: rgb(255, 255, 255);
+font-weight: 900;
+text-align: center;</string>
+     </property>
+     <property name="text">
+      <string>Rating Products</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>160</y>
+       <width>201</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: 'Lobster', cursive;
+color: rgb(255, 255, 255);
+font-weight: 900;</string>
+     </property>
+     <property name="text">
+      <string>Choose Product To Rate</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>50</y>
+       <width>1071</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: 'Lobster', cursive;
+color: rgb(255, 255, 255);
+font-weight: 900;</string>
+     </property>
+     <property name="text">
+      <string>===========================================================================================================</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>130</y>
+       <width>1071</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: 'Lobster', cursive;
+color: rgb(255, 255, 255);
+font-weight: 900;</string>
+     </property>
+     <property name="text">
+      <string>===========================================================================================================</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Tab 2</string>
+    </attribute>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>50</y>
+       <width>451</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 28pt;
+font: 28pt &quot;Snap ITC&quot;;
+color: rgb(255, 255, 255);
+font-weight: 900;
+text-align: center;</string>
+     </property>
+     <property name="text">
+      <string>Rating Seller</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>0</y>
+       <width>911</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 28pt;
+font: 28pt &quot;Snap ITC&quot;;
+color: rgb(255, 255, 255);
+font-weight: 900;
+text-align: center;</string>
+     </property>
+     <property name="text">
+      <string>Customer Name Here</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>40</y>
+       <width>1071</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: 'Lobster', cursive;
+color: rgb(255, 255, 255);
+font-weight: 900;</string>
+     </property>
+     <property name="text">
+      <string>===========================================================================================================</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="sellerrate">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>250</y>
+       <width>113</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid #e7e7e7;
+    border-radius: 13px;
+    background-color: #232323;
+    color: white;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="subsellerrate">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>300</y>
+       <width>93</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(77, 119, 255);
+color: rgb(255, 255, 255);
+border-radius:13.5px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+height: 30px;</string>
+     </property>
+     <property name="text">
+      <string>Submit rate</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>140</y>
+       <width>201</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: 'Lobster', cursive;
+color: rgb(255, 255, 255);
+font-weight: 900;</string>
+     </property>
+     <property name="text">
+      <string>Choose Seller To Rate</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="sellernames">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>130</y>
+       <width>591</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>250</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: 'Lobster', cursive;
+color: rgb(255, 255, 255);
+font-weight: 900;</string>
+     </property>
+     <property name="text">
+      <string>Enter Rate</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>100</y>
+       <width>1071</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: 'Lobster', cursive;
+color: rgb(255, 255, 255);
+font-weight: 900;</string>
+     </property>
+     <property name="text">
+      <string>===========================================================================================================</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>580</y>
+     <width>251</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(77, 119, 255);
+color: rgb(255, 255, 255);
+border-radius:13.5px;
+height: 30px;</string>
+   </property>
+   <property name="text">
+    <string>BackTOCUSTOMER MENU</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
